@@ -1,0 +1,12 @@
+.but{
+	width: 200px;
+	height: 25px;
+	font-size: 10px;
+}
+
+#can{
+	width: 600px;
+	height: 600px;
+	border-color: black;
+	border-style: dashed;
+}

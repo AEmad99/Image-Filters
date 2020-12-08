@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<script src="miniProj.js"></script>
+<script src=""></script>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<head>
+	<link rel="stylesheet" type="text/css" href="miniProj.css">
+	<title>Filter Fun</title>
+</head>
+<body>
+	<div class="title">
+		<h1>Filter Fun</h1>
+	</div>
+	<canvas id="can">
+		
+	</canvas>
+	<div>
+		<input type="file" accept="image/*" name="Choose File" id="upld" onchange="upload()">
+		<input type="submit" name="Submit" >
+	</div>
+	<div>
+		<input type="button" value="Red Filter" onclick="doRed()" class="but">
+		<input type="button" value="GrayScale Filter" onclick="doGray()" class="but">
+		<input type="button" value="Rainbow Filter" onclick="doRainbow()" class="but">
+	</div>
+</body>
+</html>
